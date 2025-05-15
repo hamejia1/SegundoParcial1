@@ -54,3 +54,7 @@ class Cola:
                 actual = actual.siguiente
             print("------")
 
+    def minimo(self):
+            if self.esta_vacia():
+                return None
+            return min(self.items)
